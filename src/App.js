@@ -8,7 +8,7 @@ import {
      } from 'react-router-dom';
 import Contact from './Pages/Contact';
 import Home from './Pages/Home';
-import  { Project1, Project2, Project3, Project4 } from './Pages/Projects';
+import  { Project1,  Project4 } from './Pages/Projects';
 import { AnimatePresence } from 'framer-motion';
 const App = () => {
   const location =useLocation();
@@ -72,8 +72,6 @@ useEffect(() => {
 <Switch location={location} key={location.pathname}>
   <Route exact path="/" component={Home} />
   <Route exact path="/Project-1"component={Project1} />
-  <Route exact path="/Project-2"component={Project2} />
-  <Route exact path="/Project-3"component={Project3} />
   <Route exact path="/Project-4"component={Project4 } />
   <Route exact path="/contact"component={Contact} />
   <Redirect to="/" />

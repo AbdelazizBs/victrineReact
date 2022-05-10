@@ -17,32 +17,7 @@ export const Project1 = () => {
 </main>
   )
 }
-export const Project2 = () => {
-  return (
-<main>
-<Mouse />
-  <div className="project">
-    <Navigation />
-    <Logo />
-    <Project projectNumber={1} />
-<ButtonsBottom left={"/project-1"} right={"/project-3"} />
-  </div>
-</main>
-  )
-}
-export const Project3 = () => {
-  return (
-<main>
-<Mouse />
-  <div className="project">
-  <Navigation />
-  <Logo />
-  <Project projectNumber={2} />
-<ButtonsBottom left={"/project-2"} right={"/project-4"} />
-  </div>
-</main>
-  )
-}
+
 export const Project4 = () => {
   return (
 <main>

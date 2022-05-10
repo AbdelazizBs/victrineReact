@@ -38,7 +38,7 @@ variants ={variants}
 <SocialNetwork />
 <div className="home-main">
 <div className="main-content">
-<motion.h1 >BS Society </motion.h1>
+<motion.h1 >SOS MER</motion.h1>
 <motion.h2 >
   <DynamicText />
   </motion.h2>
